@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Popping, serif;
+    background: linear-gradient(90deg, #00009c 0%, #000000 100%);
+    box-shadow: 36px 28px 49px 15px #032f03;
+}
+
+#first{
+    color: aquamarine;
+}
+
+.nav-link {
+    color: aquamarine;}
+
+.navbar-nav .nav-link.active {
+    color: rgb(166, 255, 77);
+}
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(38, 36, 36);
+}
+
+.navbar-toggler img {
+    width: 31px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.sidebar {
+    color:aquamarine ;
+    background: linear-gradient(270deg, #0000b3 0%, #000000 80%);
+
+}
+
+.a {
+    color: rgb(188, 248, 129);
+}
+.b {
+    color: rgb(107, 237, 100);
+}
+.c {
+    color: cyan;
+}
+
+.card {
+    color: rgb(0, 255, 255);
+    background: linear-gradient(270deg, #1e1e84 0%, #524300 80%);
+}
+
+.card a {
+    color: rgb(0, 255, 255);
+    text-decoration: none;
+}
+
+.card {
+    margin-top: 15px;
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-item img{
+    margin-left: 50px;
+}
+
+.slide-text {
+    color: rgb(0, 228, 228);
+    margin: auto auto;
+    padding-right: 220px;
+    /* padding: 20px; */
+    /* margin-right: 20px; */
+}
+
+.footer-text{
+    color: rgb(0, 228, 228);
+    margin: auto auto;
+}
+
+footer, 
+.btn-outline-primary{
+    background: linear-gradient(270deg, #841e1e 0%, #08652d 80%);
+}
+
+.media-links {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation {
+    animation: triFsay 2s ease 1s 15 normal forwards;
+}
+
+/* triFsay - The rock is flying straight at you */
+
+@keyframes triFsay {
+	0%,
+	100% {
+		transform: translateY(0) rotate(0);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateY(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateY(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateY(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateY(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateY(-6px) rotate(1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-item {
+        display: none;
+    }
+}
